@@ -1,0 +1,33 @@
+body {
+    background: #77A1D3; 
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blogArticle {
+    width: 25rem;
+    margin: 2.5rem;    
+    padding: 2rem;
+
+    text-align: center;
+    border-radius: 18px;
+    
+    background-color: #272727;
+    color: #f4da86;
+    box-shadow: 0 4px 10px rgba(69, 69, 69, 0.6);
+    box-shadow: 0 4px 10px rgba(135, 133, 133, 0.6);
+}
+.blogArticle h2 {
+    font-size: 3rem;
+}
+.blogArticle p {
+    text-align: justify;
+}
+.blogArticle img {
+    max-width: 100%;
+}
