@@ -22,6 +22,9 @@
 - [ ] Au click sur l'un des `button` de couleur, le `paragraph` prend les couleurs du `button` cliqué
 - [ ] Au click sur le `button "reset"`, les changements effectués sur le paragraphe sont annulés
 
+
+<br>
+
 ##   #3 - ToDo List :ballot_box_with_check: 
 
 ### :bulb: Instructions
