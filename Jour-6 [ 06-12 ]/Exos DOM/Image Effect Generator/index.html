@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnail Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <img src="mountain.jpg" >
+    
+    <div class="controls" title='click to open || double-click to close'>
+        <input type="range" data-effect="grayscale" value=0 max=100 hidden>
+        <button>grayscale</button>
+        
+        <input type="range" data-effect="sepia" value=0 max=100 hidden>
+        <button>sepia</button>
+
+        <input type="range" data-effect="brightness" value=0 max=100 hidden>
+        <button>brightness</button>
+
+        <input type="range" data-effect="blur" value=0 max=10 hidden>
+        <button>blur</button>
+
+        <input type="range" data-effect="invert" value=0 max=100 hidden>
+        <button>invert</button>
+
+        <input type="range" data-effect="contrast" value=0 max=10 hidden>
+        <button>contrast</button>
+       
+        <input type="range" data-effect="saturate" value=0 max=300 hidden>
+        <button>saturate</button>
+
+        <input type="range" data-effect="hue-rotate" value=0 max=360 hidden>
+        <button>hue-rotate</button>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
