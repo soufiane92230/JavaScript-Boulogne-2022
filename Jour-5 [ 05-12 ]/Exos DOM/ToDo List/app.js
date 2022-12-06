@@ -29,9 +29,13 @@ function isChecked() {
     let boxes = document.querySelectorAll('input[type="checkbox"]');
     
     for (let box of boxes) {
-        box.onclick = e => {  
+        box.onclick = event => {  
             // on cible le label avec le for correspondant à l'id de la checkbox cochée 
-            document.querySelector(`[for="${e.target.id}"]`).classList.toggle('crossed')
+            document.querySelector(`[for="${event.target.id}"]`).classList.toggle('crossed');
+            
+            // on ajoute ou enlève l'attribut checked 
+            // pour qu'au moment de mettre à jour le contenu HTML des checkboxes, celles qui on été cochées restent cochées
+            document.querySelector(`#${event.target.id}`).toggleAttribute('checked');
         }
     }
 }
