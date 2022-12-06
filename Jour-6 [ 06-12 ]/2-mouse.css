@@ -1,0 +1,23 @@
+div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.mouseMove {
+    background-color: #fab25a;
+    z-index: 1;
+}
+
+.mouseWrite {
+    background-color: #e98307;
+}
+
+
+.mouseStamp {
+    background-color: #8b008b;
+    z-index: 2;
+}
