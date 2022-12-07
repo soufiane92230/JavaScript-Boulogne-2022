@@ -25,8 +25,11 @@
 - [ ] Si les conditions ne sont pas respectées, la barre est rouge et fait 1/3 de la largeur
 - [ ] Si les conditions sont respectées, la barre devient orange et fait 2/3 de la largeur
 - [ ] Si les conditions sont respectées et que le mot de passe fait au moins 12 caractères : la barre devient verte et est complète
-- [ ] Une poppup d'erreur apparaît si un ou des champs sont manquants ou invalides
-- [ ] Une poppup de confirmation apparaît si tous les champs sont complets et valides
+
+<br>
+
+- [ ] Une pop-up d'erreur apparaît si un ou des champs sont manquants ou invalides
+- [ ] Une pop-up de confirmation apparaît si tous les champs sont complets et valides
 
 #### 🔗 Outil pour créer des popups : [SweetAlert](https://sweetalert2.github.io/)
 
