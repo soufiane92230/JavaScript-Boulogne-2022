@@ -1,0 +1,91 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(124deg, rgba(18, 180, 213, 0.5298494397759104) 35%, rgba(23, 138, 143, 1) 100%);
+    color: hsl(0, 0%, 40%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 2em;
+    border-radius: 7px;
+}
+
+input {
+    margin-top: 0.8em;
+    display: block;
+    outline: none;
+    border: none;
+    color: hsl(0, 0%, 40%);
+    color: #fff;
+    text-shadow: 1px 1px 2px hsl(0, 0%, 40%);
+    font-size: 1.1em;
+    padding: .6em;
+    background-color: rgba(18, 180, 213, .3);
+    border-radius: 5px;
+}
+
+input~span[data-input] {
+    margin: 0.5em 0 2.2em 0;
+    color: rgb(216, 0, 0);
+    font-size: .9em;
+}
+
+#progress_bar {
+    height: .3em;
+    width: 0;
+    margin-top: 0.3em;
+    border-radius: 2px;
+    transition: 0.4s ease-in;
+}
+
+.invalid {
+    border: 2px solid rgb(216, 0, 0);
+}
+
+.valid {
+    border: 2px solid rgb(31, 136, 31);
+}
+
+
+button {
+    background: linear-gradient(124deg, rgba(234, 134, 199, 1) 35%, rgba(225, 92, 179, 1) 70%);
+    margin-top: 1.3em;
+    padding: .7em 0.2em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s ease;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+h2#swal2-title {
+    color: #f27474;
+}
+
+button.swal2-confirm.swal2-styled {
+    background-color: #12b4d5;
+}
+
+button.swal2-confirm.swal2-styled:focus {
+    box-shadow: none;
+}

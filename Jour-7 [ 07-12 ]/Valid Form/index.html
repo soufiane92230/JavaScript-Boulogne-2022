@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Form Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+        <label for="pseudo">Pseudo</label>
+        <input type="text" autocomplete="off" id="pseudo">
+        <span data-input="pseudo"></span>
+
+        <label for="email">Email</label>
+        <input type="email" autocomplete="off" id="email">
+        <span data-input="email"></span>
+
+        <label for="password">Password</label>
+        <input type="password" id="password">
+        <span id="progress_bar"></span>
+        <span data-input="password"></span>
+
+        <label for="password2">Confirm password</label>
+        <input type="password" id="password2">
+        <span data-input="password2"></span>
+
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.9/sweetalert2.all.min.js"></script>
+</body>
+
+</html>
