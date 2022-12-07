@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #3f3f3f;
+}
+
+.gameContainer {
+    display: flex;
+    margin: 3rem;
+}
+
+.randomPic {
+    width: 6rem;
+    margin: .8rem;  
+    padding: 1em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 4px solid #f5f5f5;
+    border-radius: 4px;
+
+    cursor: pointer;  
+}
+
+.choosenPic {
+    border-color: #FFC24C;
+}
+
+#result {
+    font-size: 2rem;
+    color: #f5f5f5;    
+}
+
+.error {
+    border-color: #FF3343; 
+}
+
+.noBorder {
+    border-color: transparent;
+}
+
+.blink {
+    border-color: #f7d514; 
+}
