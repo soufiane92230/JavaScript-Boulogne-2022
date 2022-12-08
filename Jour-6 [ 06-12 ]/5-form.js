@@ -21,7 +21,6 @@ document.getElementById('selectInput').addEventListener('input', function(event)
 
 // ..... submit ..... //
 
-
 // l'événement submit est déclenché lors de la soumission d'un formulaire 
 // il faut ABSOLUMENT ajouter la méthode event.preventDefault() pour empêcher la page de se recharger au moment de la soumission du formulaire (comportement par défaut)
 
@@ -42,20 +41,17 @@ document.getElementById('inputSubmit').addEventListener('click', function(event)
 })
 
 
-// l'événement reset est déclenché lors de la soumission d'un formulaire 
-document.querySelector('form').addEventListener('reset', function(event){
-    event.preventDefault();
-    console.log('Reset Event depuis le formulaire');
-})
+// // l'événement reset est déclenché lors du click sur un reset 
+// document.querySelector('form').addEventListener('reset', function(){
+//     console.log('Reset Event depuis le formulaire');
+// })
 
 
-// cela revient au même que l'événement click sur le bouton de type reset
-document.getElementById('btnReset').addEventListener('click', function(event){
-    event.preventDefault();
+// // cela revient au même que l'événement click sur le bouton de type reset
+document.getElementById('btnReset').addEventListener('click', function(){
     console.log('Reset Event depuis le bouton reset');
 })
-// ou que l'événement click sur un input de type reset
-document.getElementById('inputReset').addEventListener('click', function(event){
-    event.preventDefault();
+// // ou que l'événement click sur un input de type reset
+document.getElementById('inputReset').addEventListener('click', function(){
     console.log('Reset Event depuis l\'input reset');
 })
