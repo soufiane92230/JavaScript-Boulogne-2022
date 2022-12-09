@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Background</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            padding: 0.6em 1em;
+            font-size: 0.9em;
+            border-radius: 0.3em;
+            border: none;
+            background-color: #252525;
+            color: #f5f5f5;
+            cursor: pointer;
+        }
+        button:hover {
+            transform: scale(1.01)
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <button id="rgbCode">Random RGB</button>
+        <button id="hexaCode">Random HexaColor</button>
+    </div>
+    <h2 id="colorCode"></h2>
+
+    <script src="./4-randomBackground.js"></script>
+</body>
+</html>
